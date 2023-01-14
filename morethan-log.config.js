@@ -52,7 +52,6 @@ const CONFIG = {
     enable: true,
     config: {
       repo: 'JoungChanok/builnd-log',
-      'issue-term': 'og:title',
       label: '💬 Giscus',
     }
   },
