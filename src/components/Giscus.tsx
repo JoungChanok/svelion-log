@@ -21,7 +21,7 @@ const Giscus: React.FC<Props> = ({ issueTerm }) => {
     script.setAttribute('theme', theme)
     script.setAttribute('repo', 'JoungChanok/bulind-log')
     script.setAttribute('repo-id', 'R_kgDOIxnfAw')
-    script.setAttribute('category', 'General')
+    script.setAttribute('category', 'Giscus')
     script.setAttribute('category-id', 'DIC_kwDOIxnfA84CTlth')
     script.setAttribute('mapping', 'title')
     script.setAttribute('strict', '0')
