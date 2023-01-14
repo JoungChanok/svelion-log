@@ -9,8 +9,6 @@ type Props = {
 
 const Giscus: React.FC<Props> = ({ mapping }) => {
   useEffect(() => {
-    const theme = "github-dark";
-    // 'github-dark'
     const script = document.createElement("script");
     const anchor = document.getElementById("comments");
     if (!anchor) return;
@@ -18,7 +16,7 @@ const Giscus: React.FC<Props> = ({ mapping }) => {
     script.setAttribute("src", "https://giscus.app/client.js");
     script.setAttribute("crossorigin", "anonymous");
     script.setAttribute("async", `true`);
-    script.setAttribute("data-theme", theme);
+    script.setAttribute("data-theme", "light");
     script.setAttribute("data-repo", "JoungChanok/bulind-log");
     script.setAttribute("data-repo-id", "R_kgDOIxnfAw");
     script.setAttribute("data-category", "Giscus");
