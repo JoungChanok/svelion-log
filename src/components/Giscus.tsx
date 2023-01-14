@@ -18,7 +18,6 @@ const Giscus: React.FC<Props> = ({ issueTerm }) => {
     script.setAttribute('src', 'https://giscus.app/client.js')
     script.setAttribute('crossorigin', 'anonymous')
     script.setAttribute('async', `true`)
-    script.setAttribute('issue-term', issueTerm)
     script.setAttribute('theme', theme)
     script.setAttribute('repo', 'JoungChanok/bulind-log')
     script.setAttribute('repo-id', 'R_kgDOIxnfAw')
