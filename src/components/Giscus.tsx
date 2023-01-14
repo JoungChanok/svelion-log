@@ -18,17 +18,17 @@ const Giscus: React.FC<Props> = ({ mapping }) => {
     script.setAttribute("src", "https://giscus.app/client.js");
     script.setAttribute("crossorigin", "anonymous");
     script.setAttribute("async", `true`);
-    script.setAttribute("theme", theme);
-    script.setAttribute("repo", "JoungChanok/bulind-log");
-    script.setAttribute("repo-id", "R_kgDOIxnfAw");
-    script.setAttribute("category", "Giscus");
-    script.setAttribute("category-id", "DIC_kwDOIxnfA84CTlui");
-    script.setAttribute("mapping", mapping);
-    script.setAttribute("strict", "0");
-    script.setAttribute("reactions-enabled", "1");
-    script.setAttribute("lang", "ko");
-    script.setAttribute("input-position", "bottom");
-    script.setAttribute("emit-metadata", "0");
+    script.setAttribute("data-theme", theme);
+    script.setAttribute("data-repo", "JoungChanok/bulind-log");
+    script.setAttribute("data-repo-id", "R_kgDOIxnfAw");
+    script.setAttribute("data-category", "Giscus");
+    script.setAttribute("data-category-id", "DIC_kwDOIxnfA84CTlui");
+    script.setAttribute("data-mapping", mapping);
+    script.setAttribute("data-strict", "0");
+    script.setAttribute("data-reactions-enabled", "1");
+    script.setAttribute("data-lang", "ko");
+    script.setAttribute("data-input-position", "bottom");
+    script.setAttribute("data-emit-metadata", "0");
 
     const config: { [key: string]: string } = CONFIG.giscus.config;
     Object.keys(config).forEach((key) => {
