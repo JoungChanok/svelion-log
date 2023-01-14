@@ -22,7 +22,7 @@ const Giscus: React.FC<Props> = ({ mapping }) => {
     script.setAttribute("repo", "JoungChanok/bulind-log");
     script.setAttribute("repo-id", "R_kgDOIxnfAw");
     script.setAttribute("category", "Giscus");
-    script.setAttribute("category-id", "DIC_kwDOIxnfA84CTlth");
+    script.setAttribute("category-id", "DIC_kwDOIxnfA84CTlui");
     script.setAttribute("mapping", mapping);
     script.setAttribute("strict", "0");
     script.setAttribute("reactions-enabled", "1");
