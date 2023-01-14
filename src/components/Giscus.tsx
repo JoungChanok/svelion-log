@@ -24,10 +24,12 @@ const Giscus: React.FC<Props> = ({ issueTerm }) => {
     script.setAttribute('repo-id', 'R_kgDOIxnfAw')
     script.setAttribute('category', 'General')
     script.setAttribute('category-id', 'DIC_kwDOIxnfA84CTlth')
-    script.setAttribute('mapping', 'pathname')
+    script.setAttribute('mapping', 'title')
     script.setAttribute('strict', '0')
     script.setAttribute('reactions-enabled', 'bottom')
     script.setAttribute('lang', 'ko')
+    script.setAttribute('reactions-enabled', '1')
+    script.setAttribute('emit-metadata', '0')
 
     const config: { [key: string]: string } = CONFIG.giscus.config
     Object.keys(config).forEach((key) => {
