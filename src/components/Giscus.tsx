@@ -9,7 +9,7 @@ type Props = {
 
 const Giscus: React.FC<Props> = ({ mapping }) => {
   useEffect(() => {
-    const theme = "github-light";
+    const theme = "github-dark";
     // 'github-dark'
     const script = document.createElement("script");
     const anchor = document.getElementById("comments");
