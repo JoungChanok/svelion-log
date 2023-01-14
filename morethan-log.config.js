@@ -52,6 +52,7 @@ const CONFIG = {
     enable: true,
     config: {
       repo: 'JoungChanok/builnd-log',
+      'mapping': 'og:title',
       label: '💬 Giscus',
     }
   },
