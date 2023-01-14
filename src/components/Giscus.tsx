@@ -15,7 +15,7 @@ const Giscus: React.FC<Props> = ({ mapping }) => {
     const anchor = document.getElementById("comments");
     if (!anchor) return;
 
-    let theme = getTheme === "dark" ? "dark" : "light";
+    let theme = getTheme === "dark" ? "dark_dimmed" : "light";
     script.setAttribute("src", "https://giscus.app/client.js");
     script.setAttribute("crossorigin", "anonymous");
     script.setAttribute("async", `true`);
