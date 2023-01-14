@@ -9,14 +9,17 @@ type Props = {
 
 const Giscus: React.FC<Props> = ({ mapping }) => {
   useEffect(() => {
+    var getTheme = window.localStorage && window.localStorage.getItem("theme");
+    getTheme = getTheme == null ? "{{$.Site.Params.defaultTheme}}" : getTheme;
     const script = document.createElement("script");
     const anchor = document.getElementById("comments");
     if (!anchor) return;
 
+    let theme = getTheme === "dark" ? "dark" : "light";
     script.setAttribute("src", "https://giscus.app/client.js");
     script.setAttribute("crossorigin", "anonymous");
     script.setAttribute("async", `true`);
-    script.setAttribute("data-theme", "light");
+    script.setAttribute("data-theme", theme);
     script.setAttribute("data-repo", "JoungChanok/bulind-log");
     script.setAttribute("data-repo-id", "R_kgDOIxnfAw");
     script.setAttribute("data-category", "Giscus");
