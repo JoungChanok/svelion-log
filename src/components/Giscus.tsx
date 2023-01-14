@@ -25,9 +25,9 @@ const Giscus: React.FC<Props> = ({ mapping }) => {
     script.setAttribute("category-id", "DIC_kwDOIxnfA84CTlth");
     script.setAttribute("mapping", mapping);
     script.setAttribute("strict", "0");
-    script.setAttribute("reactions-enabled", "bottom");
-    script.setAttribute("lang", "ko");
     script.setAttribute("reactions-enabled", "1");
+    script.setAttribute("lang", "ko");
+    script.setAttribute("input-position", "bottom");
     script.setAttribute("emit-metadata", "0");
 
     const config: { [key: string]: string } = CONFIG.giscus.config;
