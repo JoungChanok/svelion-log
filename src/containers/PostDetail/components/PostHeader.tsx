@@ -1,4 +1,4 @@
-import CONFIG from '@/morethan-log.config'
+import CONFIG from '@/svelion-log.config'
 import Tag from '@components/Tag'
 import { TPost } from '@/src/types'
 import { formatDate } from '@/src/libs/utils'

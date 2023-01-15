@@ -1,5 +1,5 @@
 import { TPost } from "@/src/types";
-import CONFIG from "morethan-log.config";
+import CONFIG from "svelion-log.config";
 import dynamic from "next/dynamic";
 
 const GiscusComponent = dynamic(
