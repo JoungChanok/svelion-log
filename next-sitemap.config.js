@@ -1,4 +1,4 @@
-const CONFIG = require('./morethan-log.config')
+const CONFIG = require('./svelion-log.config')
 
 module.exports = {
   siteUrl: CONFIG.link,
