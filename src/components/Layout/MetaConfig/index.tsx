@@ -1,4 +1,4 @@
-import CONFIG from 'morethan-log.config'
+import CONFIG from 'svelion-log.config'
 import Head from 'next/head'
 
 export type MetaConfigProps = {

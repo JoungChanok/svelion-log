@@ -1,4 +1,4 @@
-import CONFIG from '@/morethan-log.config'
+import CONFIG from '@/svelion-log.config'
 import { ThemeType } from '@/src/types'
 import { getTheme } from '@hooks/useThemeEffect'
 import React, { useEffect, useState } from 'react'

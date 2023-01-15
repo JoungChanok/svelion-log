@@ -10,8 +10,8 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `Test blog`,
-      href: 'https://blog.bulind.com'
+      name: `Chanok\'s Blogs`,
+      href: 'https://blog.svelion.com'
     }
   ],
   // blog setting (required)
@@ -22,7 +22,7 @@ const CONFIG = {
   },
 
   // CONFIG configration (required)
-  link: 'https://blog.bulind.com',
+  link: 'https://blog.svelion.com',
   since: 2023, // If leave this empty, current year will be used.
   lang: 'ko-KR', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: 'https://og-image-korean.vercel.app', // The link to generate OG image, don't end with a slash
@@ -51,7 +51,7 @@ const CONFIG = {
   giscus: {
     enable: true,
     config: {
-      repo: 'JoungChanok/builnd-log',
+      repo: 'JoungChanok/svelion-log',
       'mapping': 'og:title',
       label: '💬 Giscus',
     }

@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import CONFIG from 'morethan-log.config'
+import CONFIG from 'svelion-log.config'
 import { ThemeType } from '@custeomTypes/index'
 
 

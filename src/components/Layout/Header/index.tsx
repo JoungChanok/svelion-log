@@ -1,5 +1,5 @@
 import { useRef } from 'react'
-import CONFIG from 'morethan-log.config'
+import CONFIG from 'svelion-log.config'
 import NavBar from './NavBar'
 import Logo from './Logo'
 import ThemeToggle from './ThemeToggle'

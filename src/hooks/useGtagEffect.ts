@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import * as gtag from '@/src/libs/plugin/gtag'
-import CONFIG from '@/morethan-log.config'
+import CONFIG from '@/svelion-log.config'
 
 const useGtagEffect = () => {
   const router = useRouter()

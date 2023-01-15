@@ -1,4 +1,4 @@
-import CONFIG from "morethan-log.config";
+import CONFIG from "svelion-log.config";
 import { useEffect } from "react";
 
 //TODO: useRef?

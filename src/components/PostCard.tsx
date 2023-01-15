@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import CONFIG from 'morethan-log.config'
+import CONFIG from 'svelion-log.config'
 import { formatDate } from '@/src/libs/utils'
 import Tag from './Tag'
 import { TPost } from '../types'

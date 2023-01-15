@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://blog.bulind.com
+Host: https://blog.svelion.com
 
 # Sitemaps
-Sitemap: https://blog.bulind.com/sitemap.xml
+Sitemap: https://blog.svelion.com/sitemap.xml
