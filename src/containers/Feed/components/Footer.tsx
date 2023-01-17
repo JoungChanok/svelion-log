@@ -1,4 +1,4 @@
-import CONFIG from "@/svelion-log.config"
+import CONFIG from "@/site.config"
 import Link from "next/link"
 import React from "react"
 
@@ -14,7 +14,7 @@ const Footer: React.FC<Props> = ({ className }) => {
   return (
     <div className={className}>
       <a
-        href={"https://github.com/${CONFIG.profile.github}"}
+        href={`https://github.com/${CONFIG.profile.github}`}
         target="_blank"
         className="text-gray-500 text-sm mt-3"
         rel="noreferrer"
