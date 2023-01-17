@@ -7,6 +7,7 @@ const CONFIG = {
     bio: '🪖 22.09.27 ~ 24.03.26',
     email: 'chanok9417@kakao.com',
     instagram: '2.406_o',
+    github: 'JoungChanok',
   },
   projects: [
     {
