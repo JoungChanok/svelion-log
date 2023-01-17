@@ -1,9 +1,6 @@
-import CONFIG from 'svelion-log.config'
-import React from 'react'
-import {
-  AiOutlineInstagram,
-  AiOutlineMail,
-} from 'react-icons/ai'
+import CONFIG from "site.config"
+import React from "react"
+import { AiOutlineInstagram, AiOutlineMail } from "react-icons/ai"
 
 const ContactCard: React.FC = () => {
   return (

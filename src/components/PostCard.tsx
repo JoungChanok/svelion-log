@@ -1,9 +1,9 @@
-import Link from 'next/link'
-import CONFIG from 'svelion-log.config'
-import { formatDate } from '@/src/libs/utils'
-import Tag from './Tag'
-import { TPost } from '../types'
-import Image from 'next/image'
+import Link from "next/link"
+import CONFIG from "site.config"
+import { formatDate } from "@/src/libs/utils"
+import Tag from "./Tag"
+import { TPost } from "../types"
+import Image from "next/image"
 
 type Props = {
   post: TPost

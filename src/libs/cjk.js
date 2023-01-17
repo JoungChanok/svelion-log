@@ -1,4 +1,4 @@
-const CONFIG = require('../../svelion-log.config')
+const CONFIG = require('../../site.config')
 
 module.exports = function lang() {
   switch (CONFIG.lang.toLowerCase()) {
